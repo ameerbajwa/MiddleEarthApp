@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE52C442761887500F8D75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C432761887500F8D75F /* AppDelegate.swift */; };
+		DEE52C462761887500F8D75F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C452761887500F8D75F /* SceneDelegate.swift */; };
+		DEE52C482761887500F8D75F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C472761887500F8D75F /* ViewController.swift */; };
+		DEE52C4B2761887500F8D75F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE52C492761887500F8D75F /* Main.storyboard */; };
+		DEE52C4E2761887500F8D75F /* MiddleEarthApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C4C2761887500F8D75F /* MiddleEarthApp.xcdatamodeld */; };
+		DEE52C502761887D00F8D75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE52C4F2761887D00F8D75F /* Assets.xcassets */; };
+		DEE52C532761887D00F8D75F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE52C512761887D00F8D75F /* LaunchScreen.storyboard */; };
+		DEE52C5E2761887D00F8D75F /* MiddleEarthAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C5D2761887D00F8D75F /* MiddleEarthAppTests.swift */; };
+		DEE52C692761887D00F8D75F /* MiddleEarthAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52C682761887D00F8D75F /* MiddleEarthAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE52C5A2761887D00F8D75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE52C382761887500F8D75F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE52C3F2761887500F8D75F;
+			remoteInfo = MiddleEarthApp;
+		};
+		DEE52C652761887D00F8D75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE52C382761887500F8D75F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE52C3F2761887500F8D75F;
+			remoteInfo = MiddleEarthApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE52C402761887500F8D75F /* MiddleEarthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiddleEarthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE52C432761887500F8D75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEE52C452761887500F8D75F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEE52C472761887500F8D75F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE52C4A2761887500F8D75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE52C4D2761887500F8D75F /* MiddleEarthApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiddleEarthApp.xcdatamodel; sourceTree = "<group>"; };
+		DEE52C4F2761887D00F8D75F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE52C522761887D00F8D75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE52C542761887D00F8D75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE52C592761887D00F8D75F /* MiddleEarthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiddleEarthAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE52C5D2761887D00F8D75F /* MiddleEarthAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleEarthAppTests.swift; sourceTree = "<group>"; };
+		DEE52C5F2761887D00F8D75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE52C642761887D00F8D75F /* MiddleEarthAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiddleEarthAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE52C682761887D00F8D75F /* MiddleEarthAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleEarthAppUITests.swift; sourceTree = "<group>"; };
+		DEE52C6A2761887D00F8D75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE52C3D2761887500F8D75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C562761887D00F8D75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C612761887D00F8D75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE52C372761887500F8D75F = {
+			isa = PBXGroup;
+			children = (
+				DEE52C422761887500F8D75F /* MiddleEarthApp */,
+				DEE52C5C2761887D00F8D75F /* MiddleEarthAppTests */,
+				DEE52C672761887D00F8D75F /* MiddleEarthAppUITests */,
+				DEE52C412761887500F8D75F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE52C412761887500F8D75F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE52C402761887500F8D75F /* MiddleEarthApp.app */,
+				DEE52C592761887D00F8D75F /* MiddleEarthAppTests.xctest */,
+				DEE52C642761887D00F8D75F /* MiddleEarthAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE52C422761887500F8D75F /* MiddleEarthApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEE52C432761887500F8D75F /* AppDelegate.swift */,
+				DEE52C452761887500F8D75F /* SceneDelegate.swift */,
+				DEE52C472761887500F8D75F /* ViewController.swift */,
+				DEE52C492761887500F8D75F /* Main.storyboard */,
+				DEE52C4F2761887D00F8D75F /* Assets.xcassets */,
+				DEE52C512761887D00F8D75F /* LaunchScreen.storyboard */,
+				DEE52C542761887D00F8D75F /* Info.plist */,
+				DEE52C4C2761887500F8D75F /* MiddleEarthApp.xcdatamodeld */,
+			);
+			path = MiddleEarthApp;
+			sourceTree = "<group>";
+		};
+		DEE52C5C2761887D00F8D75F /* MiddleEarthAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE52C5D2761887D00F8D75F /* MiddleEarthAppTests.swift */,
+				DEE52C5F2761887D00F8D75F /* Info.plist */,
+			);
+			path = MiddleEarthAppTests;
+			sourceTree = "<group>";
+		};
+		DEE52C672761887D00F8D75F /* MiddleEarthAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE52C682761887D00F8D75F /* MiddleEarthAppUITests.swift */,
+				DEE52C6A2761887D00F8D75F /* Info.plist */,
+			);
+			path = MiddleEarthAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE52C3F2761887500F8D75F /* MiddleEarthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE52C6D2761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthApp" */;
+			buildPhases = (
+				DEE52C3C2761887500F8D75F /* Sources */,
+				DEE52C3D2761887500F8D75F /* Frameworks */,
+				DEE52C3E2761887500F8D75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiddleEarthApp;
+			productName = MiddleEarthApp;
+			productReference = DEE52C402761887500F8D75F /* MiddleEarthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE52C582761887D00F8D75F /* MiddleEarthAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE52C702761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthAppTests" */;
+			buildPhases = (
+				DEE52C552761887D00F8D75F /* Sources */,
+				DEE52C562761887D00F8D75F /* Frameworks */,
+				DEE52C572761887D00F8D75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE52C5B2761887D00F8D75F /* PBXTargetDependency */,
+			);
+			name = MiddleEarthAppTests;
+			productName = MiddleEarthAppTests;
+			productReference = DEE52C592761887D00F8D75F /* MiddleEarthAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEE52C632761887D00F8D75F /* MiddleEarthAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE52C732761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthAppUITests" */;
+			buildPhases = (
+				DEE52C602761887D00F8D75F /* Sources */,
+				DEE52C612761887D00F8D75F /* Frameworks */,
+				DEE52C622761887D00F8D75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE52C662761887D00F8D75F /* PBXTargetDependency */,
+			);
+			name = MiddleEarthAppUITests;
+			productName = MiddleEarthAppUITests;
+			productReference = DEE52C642761887D00F8D75F /* MiddleEarthAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE52C382761887500F8D75F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ameer Bajwa";
+				TargetAttributes = {
+					DEE52C3F2761887500F8D75F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DEE52C582761887D00F8D75F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DEE52C3F2761887500F8D75F;
+					};
+					DEE52C632761887D00F8D75F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DEE52C3F2761887500F8D75F;
+					};
+				};
+			};
+			buildConfigurationList = DEE52C3B2761887500F8D75F /* Build configuration list for PBXProject "MiddleEarthApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE52C372761887500F8D75F;
+			productRefGroup = DEE52C412761887500F8D75F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE52C3F2761887500F8D75F /* MiddleEarthApp */,
+				DEE52C582761887D00F8D75F /* MiddleEarthAppTests */,
+				DEE52C632761887D00F8D75F /* MiddleEarthAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE52C3E2761887500F8D75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE52C532761887D00F8D75F /* LaunchScreen.storyboard in Resources */,
+				DEE52C502761887D00F8D75F /* Assets.xcassets in Resources */,
+				DEE52C4B2761887500F8D75F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C572761887D00F8D75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C622761887D00F8D75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE52C3C2761887500F8D75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE52C482761887500F8D75F /* ViewController.swift in Sources */,
+				DEE52C442761887500F8D75F /* AppDelegate.swift in Sources */,
+				DEE52C462761887500F8D75F /* SceneDelegate.swift in Sources */,
+				DEE52C4E2761887500F8D75F /* MiddleEarthApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C552761887D00F8D75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE52C5E2761887D00F8D75F /* MiddleEarthAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52C602761887D00F8D75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE52C692761887D00F8D75F /* MiddleEarthAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE52C5B2761887D00F8D75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE52C3F2761887500F8D75F /* MiddleEarthApp */;
+			targetProxy = DEE52C5A2761887D00F8D75F /* PBXContainerItemProxy */;
+		};
+		DEE52C662761887D00F8D75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE52C3F2761887500F8D75F /* MiddleEarthApp */;
+			targetProxy = DEE52C652761887D00F8D75F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE52C492761887500F8D75F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE52C4A2761887500F8D75F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE52C512761887D00F8D75F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE52C522761887D00F8D75F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE52C6B2761887D00F8D75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEE52C6C2761887E00F8D75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE52C6E2761887E00F8D75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEE52C6F2761887E00F8D75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEE52C712761887E00F8D75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiddleEarthApp.app/MiddleEarthApp";
+			};
+			name = Debug;
+		};
+		DEE52C722761887E00F8D75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiddleEarthApp.app/MiddleEarthApp";
+			};
+			name = Release;
+		};
+		DEE52C742761887E00F8D75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiddleEarthApp;
+			};
+			name = Debug;
+		};
+		DEE52C752761887E00F8D75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiddleEarthAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheBaj.MiddleEarthAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiddleEarthApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE52C3B2761887500F8D75F /* Build configuration list for PBXProject "MiddleEarthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE52C6B2761887D00F8D75F /* Debug */,
+				DEE52C6C2761887E00F8D75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE52C6D2761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE52C6E2761887E00F8D75F /* Debug */,
+				DEE52C6F2761887E00F8D75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE52C702761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE52C712761887E00F8D75F /* Debug */,
+				DEE52C722761887E00F8D75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE52C732761887E00F8D75F /* Build configuration list for PBXNativeTarget "MiddleEarthAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE52C742761887E00F8D75F /* Debug */,
+				DEE52C752761887E00F8D75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEE52C4C2761887500F8D75F /* MiddleEarthApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEE52C4D2761887500F8D75F /* MiddleEarthApp.xcdatamodel */,
+			);
+			currentVersion = DEE52C4D2761887500F8D75F /* MiddleEarthApp.xcdatamodel */;
+			path = MiddleEarthApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEE52C382761887500F8D75F /* Project object */;
+}
